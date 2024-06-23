@@ -48,6 +48,7 @@ gem 'bootsnap', require: false
 # gem "image_processing", "~> 1.2"
 
 gem 'redis'
+gem 'rubycritic', require: false
 gem 'sidekiq'
 
 group :development, :test do
