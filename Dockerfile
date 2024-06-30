@@ -13,7 +13,7 @@ RUN apt-get update && \
 COPY Gemfile Gemfile.lock ./
 
 # Install gems
-RUN bundle install
+RUN bundle install -j 8
 
 # Copy the rest of the application code
 COPY . .
